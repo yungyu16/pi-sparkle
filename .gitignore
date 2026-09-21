@@ -1,0 +1,47 @@
+# 依赖与构建产物
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# npm 打包产物
+*.tgz
+*.tar.gz
+package/
+
+# 日志
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 本地环境与凭据（不提交）
+.env
+.env.*
+!.env.example
+
+# 操作系统
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 编辑器与 IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 测试与缓存
+.node_repl_history
+.eslintcache
+.tap/
+.nyc_output/
+
+# Git worktree
+.worktrees/
